@@ -51,7 +51,6 @@ def draw_single_curve(param, ax, n_params_dict, n_sim, n_methods, draws, alpha, 
     param_list = np.sort(sorter_)
 
     curves_tot = curves_tot[sorter]
-    curves_tot = curves_tot[sorter]
     
     if use_fdp:
         var_band = 1.96 * np.sqrt(alpha * (1 - alpha) / n_sim)
